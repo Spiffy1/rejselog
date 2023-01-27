@@ -1,1 +1,7 @@
 site_name: Rejse Log
+
+nav:
+  - Welcome: "index.md"
+
+theme:
+  name: material
