@@ -6,8 +6,14 @@ name = "pypi"
 [packages]
 mkdocs = "*"
 mkdocs-material = "*"
+pipenv = "*"
+
+[scripts]
+serve = "mkdocs serve"
+build = "mkdocs build"
 
 [dev-packages]
+black = "*"
 
 [requires]
-python_version = "3.10"
+python_version = "3.11"

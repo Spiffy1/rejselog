@@ -4,6 +4,8 @@ nav:
   - Welcome: "index.md"
   - Version Control: "version_control.md"
   - About: "about.md"
+  - Roadmap: "roadmap.md"
+  - Pedagogy: "efficient_learning.md"
 permissions:
   contents: write
 
