@@ -45,8 +45,6 @@ Here are some screenshots of the Material theme in action:
 
 ![Material Theme Homepage](images/homepage.png)
 
-![Material Theme Search Bar](images/search.png)
-
 ![Material Theme Color Scheme Selector](images/color-scheme.png)
 
 ![Material Theme Sidebar Navigation](images/navigation.png)
