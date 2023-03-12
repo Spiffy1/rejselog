@@ -2,10 +2,21 @@ site_name: Rejse Log
 
 nav:
   - Welcome: "index.md"
-  - Version Control: "version_control.md"
-  - About: "about.md"
+  - Version Control & Managing Dependencies:
+      - Intro: "version-control/intro.md"
+      - Python:
+          - Intro: "version-control/python/about.md"
+          - Pipfile: "version-control/python/intro.md"
+          - Installation Guideline: "version-control/python/installation.md"
+      - NodeJs:
+          - Intro: "version-control/nodejs/intro.md"
+  # - About: "about.md"
+  - Linters: code-quality/linter.md
+  - Pedagogy: "pedagogy/efficient_learning.md"
   - Roadmap: "roadmap.md"
-  - Pedagogy: "efficient_learning.md"
+  - General Advices:
+      - Business First: "general-advices/business-first.md"
+      - Automate as much as possible: "general-advices/automaton.md"
 permissions:
   contents: write
 
@@ -19,3 +30,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - markdown.extensions.codehilite:
+      css_class: highlight # optional CSS class for code blocks
+      guess_lang: false # disable automatic language guessing
+      linenums: false # disable line numbering
+  - markdown.extensions.extra
+  - markdown.extensions.meta
